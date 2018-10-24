@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 437
+  Height = 311
+  Top = 209
+  Width = 568
+  Caption = 'Form1'
+  ClientHeight = 311
+  ClientWidth = 568
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object sbPanjang: TScrollBar
+    Left = 32
+    Height = 13
+    Top = 24
+    Width = 194
+    PageSize = 0
+    TabOrder = 0
+    OnChange = sbPanjangChange
+  end
+  object sbLebar: TScrollBar
+    Left = 32
+    Height = 13
+    Top = 64
+    Width = 193
+    PageSize = 0
+    TabOrder = 1
+  end
+  object edPanjang: TEdit
+    Left = 240
+    Height = 27
+    Top = 24
+    Width = 216
+    TabOrder = 2
+  end
+  object edLebar: TEdit
+    Left = 240
+    Height = 27
+    Top = 64
+    Width = 216
+    TabOrder = 3
+  end
+  object edLuas: TEdit
+    Left = 240
+    Height = 27
+    Top = 104
+    Width = 216
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 104
+    Width = 192
+    Caption = 'Selesai'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 472
+    Height = 17
+    Top = 24
+    Width = 53
+    Caption = 'Panjang'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 472
+    Height = 17
+    Top = 64
+    Width = 39
+    Caption = 'Lebar'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 472
+    Height = 17
+    Top = 104
+    Width = 31
+    Caption = 'Luas'
+    ParentColor = False
+  end
+end
