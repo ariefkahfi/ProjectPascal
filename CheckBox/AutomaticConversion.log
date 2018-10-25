@@ -1,0 +1,12 @@
+bab43checkbox.lpi Note: Added defines -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL in custom options
+ Progress: Found all unit files
+ : 
+ : *** Converting unit files belonging to project/package ***
+Unit3checkbox.pas Note: Replaced unit "Mask" with "MaskEdit" in uses section.
+Unit3checkbox.pas Note: Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+ : 
+ : *** Fixing used units and Repairing form files ***
+Unit3checkbox.pas Note: Removed property "TextHeight".
+Unit3checkbox.pas Note: Removed property "OldCreateOrder".
+ Progress: Conversion took: 00:00:03
+ : Conversion Ready.
