@@ -60,7 +60,8 @@ begin
   Edit5.Color:=clBtnFace;
   Edit6.Enabled:=False;
   Edit6.Color:=clBtnFace;
-  RadioButton1.Checked:=True;
+  RadioButton1.Checked:=False;
+  RadioButton2.Checked:=False;
 end;
 
 procedure TForm1.RadioButton1Change(Sender: TObject);
@@ -135,6 +136,8 @@ begin
      Edit3.Text:= '';
      Edit4.Text:= '';
      Edit1.SetFocus;
+     RadioButton1.Checked:=False;
+     RadioButton2.Checked:=False;
 end;
 
 procedure TForm1.Button2Click(Sender: TObject);
