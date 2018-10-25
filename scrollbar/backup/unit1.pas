@@ -21,6 +21,7 @@ type
     Label3: TLabel;
     sbPanjang: TScrollBar;
     sbLebar: TScrollBar;
+    procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure sbPanjangChange(Sender: TObject);
   private
@@ -50,6 +51,11 @@ begin
   sbPanjang.SmallChange:=1;
   sbPanjang.LargeChange:=1000;
   sbLebar.OnChange:=sbPanjang.OnChange;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Application.Terminate;
 end;
 
 procedure TForm1.sbPanjangChange(Sender: TObject);

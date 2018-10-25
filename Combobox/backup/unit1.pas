@@ -46,7 +46,7 @@ var
   kurs, jumlah, rupiah : Single;
   kode : Integer;
 begin
-  if ComboBox1.Text='US $' then kurs:=6950;
+  if ComboBox1.Text='US $'then kurs:=6950;
   if ComboBox1.Text='JPY' then kurs:=64.4862;
   if ComboBox1.Text='SGD' then kurs:=3953.36;
   if ComboBox1.Text='AUD' then kurs:=4253.12;
@@ -54,18 +54,8 @@ begin
 end;
 
 procedure TForm1.Edit1Change(Sender: TObject);
-var
-  kurs, jumlah, rupiah : Single;
-  kode : Integer;
-  sKurs, sJumlah : String[30];
 begin
-  sKurs:=Edit3.Text;
-  while Pos(',', sKurs) > 0 Do Delete(sKurs, Pos(',', sKurs), 1);
-  while Pos(',', sJumlah) > 0 Do Delete(sJumlah, Pos(',', sJumlah), 1);
-  val(sKurs, kurs, kode);
-  val(sJumlah, jumlah, kode);
-  rupiah:=kurs*jumlah;
-  Edit2.Text:=Format('%n', [rupiah]);
+
 end;
 
 procedure TForm1.Edit3Change(Sender: TObject);
