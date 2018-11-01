@@ -7,7 +7,9 @@
       <Unit0>
         <Filename Value="App.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="20" Y="9"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="20" Y="17"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -19,9 +21,13 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
+<<<<<<< HEAD:Checkbox/App.lps
         <EditorIndex Value="1"/>
         <TopLine Value="34"/>
         <CursorPos X="3" Y="43"/>
+=======
+        <CursorPos X="33" Y="15"/>
+>>>>>>> 4843aa34924a7cc14b1a562ac41798f22ae7113e:Radio/backup/App.lps
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit1>
@@ -109,7 +115,7 @@
       </Position20>
       <Position21>
         <Filename Value="unit1.pas"/>
-        <Caret Line="63" Column="30" TopLine="49"/>
+        <Caret Line="63" Column="33" TopLine="49"/>
       </Position21>
     </JumpHistory>
   </ProjectSession>
